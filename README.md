@@ -44,7 +44,7 @@ Once installed, plugins activate automatically based on their type:
 - **Hooks** — Trigger automatically on lifecycle events (PreToolUse, PostToolUse, etc.)
 - **Agents** — Available as subagents for delegation via the Task tool
 
-## Available Plugins (24)
+## Available Plugins (27)
 
 ### Development
 
@@ -67,6 +67,7 @@ Once installed, plugins activate automatically based on their type:
 | **api-design** | API design patterns — REST conventions, versioning, error handling | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) |
 | **backend-patterns** | Backend architecture patterns — caching, queues, middleware | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) |
 | **docker-patterns** | Docker best practices — multi-stage builds, compose, security hardening | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) |
+| **repo-analyser** | Analyse code repositories and generate architecture documentation with Mermaid diagrams | Local (AgentFoundry) |
 
 ### Security
 
@@ -80,6 +81,7 @@ Once installed, plugins activate automatically based on their type:
 |--------|-------------|--------|
 | **planning-with-files** | Manus-style persistent markdown planning for cross-session memory | [OthmanAdi/planning-with-files](https://github.com/OthmanAdi/planning-with-files) |
 | **continuous-learning-v2** | Instinct-based learning system — observes sessions and evolves behaviours into skills | [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code) |
+| **pr-conventions** | PR conventions — full commit history analysis and test plan requirements | Local (AgentFoundry) |
 
 ### Creative
 
@@ -88,6 +90,12 @@ Once installed, plugins activate automatically based on their type:
 | **doc-coauthoring** | Collaborative document co-authoring skill for structured writing | [anthropics/skills](https://github.com/anthropics/skills) |
 | **algorithmic-art** | Generate algorithmic and generative art — patterns, fractals, visualisations | [anthropics/skills](https://github.com/anthropics/skills) |
 | **ui-ux-pro-max-skill** | AI-driven UI/UX design system generator — 67 styles, 96 palettes, 100 rules | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
+
+### Style
+
+| Plugin | Description | Source |
+|--------|-------------|--------|
+| **i18n-guide** | Internationalisation guide — multi-language support for frontend components | Local (AgentFoundry) |
 
 ### Integration
 

@@ -1,0 +1,11 @@
+{
+  "name": "i18n-guide",
+  "description": "Internationalisation guide — enforce multi-language support for frontend components with unified configuration paths",
+  "version": "1.0.0",
+  "skills": [
+    {
+      "name": "i18n-guide",
+      "description": "Enforce i18n support for all frontend UI components with unified language configuration"
+    }
+  ]
+}
