@@ -1,11 +1,7 @@
 {
   "name": "repo-analyser",
   "description": "Analyse code repositories and generate comprehensive architecture documentation with Mermaid diagrams",
-  "version": "1.0.0",
-  "skills": [
-    {
-      "name": "repo-analyser",
-      "description": "Generate architecture analysis for TypeScript and Python codebases — structure, modules, data flows, and patterns"
-    }
-  ]
+  "author": {
+    "name": "AgentFoundry"
+  }
 }

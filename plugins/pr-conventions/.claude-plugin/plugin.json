@@ -1,11 +1,7 @@
 {
   "name": "pr-conventions",
   "description": "Pull request conventions — full commit history analysis and test plan requirements",
-  "version": "1.0.0",
-  "skills": [
-    {
-      "name": "pr-conventions",
-      "description": "Enforce PR conventions: analyse full commit history, require test plans with TODOs"
-    }
-  ]
+  "author": {
+    "name": "AgentFoundry"
+  }
 }

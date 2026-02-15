@@ -248,20 +248,32 @@
     {
       "name": "repo-analyser",
       "description": "Analyse code repositories and generate comprehensive architecture documentation with Mermaid diagrams",
+      "author": {
+        "name": "AgentFoundry"
+      },
       "source": "./plugins/repo-analyser",
-      "category": "development"
+      "category": "development",
+      "homepage": "https://github.com/Shawn-Guo-CN/agentfoundry-plugin-marketplace/tree/main/plugins/repo-analyser"
     },
     {
       "name": "pr-conventions",
       "description": "Pull request conventions — full commit history analysis and test plan requirements",
+      "author": {
+        "name": "AgentFoundry"
+      },
       "source": "./plugins/pr-conventions",
-      "category": "workflow"
+      "category": "workflow",
+      "homepage": "https://github.com/Shawn-Guo-CN/agentfoundry-plugin-marketplace/tree/main/plugins/pr-conventions"
     },
     {
       "name": "i18n-guide",
       "description": "Internationalisation guide — enforce multi-language support for frontend components with unified configuration paths",
+      "author": {
+        "name": "AgentFoundry"
+      },
       "source": "./plugins/i18n-guide",
-      "category": "style"
+      "category": "style",
+      "homepage": "https://github.com/Shawn-Guo-CN/agentfoundry-plugin-marketplace/tree/main/plugins/i18n-guide"
     }
   ]
 }
