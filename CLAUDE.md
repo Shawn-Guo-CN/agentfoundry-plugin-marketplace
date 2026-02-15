@@ -72,7 +72,7 @@ scripts/
 
 Users install plugins via Claude Code's native plugin system:
 ```
-/plugin marketplace add agentfoundry/agentfoundry-plugin-marketplace
+/plugin marketplace add Shawn-Guo-CN/agentfoundry-plugin-marketplace
 ```
 
 ## Validation

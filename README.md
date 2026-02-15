@@ -9,7 +9,7 @@ Curated collection of Claude Code plugins for AI agent development — skills, c
 In Claude Code, run:
 
 ```
-/plugin marketplace add agentfoundry/agentfoundry-plugin-marketplace
+/plugin marketplace add Shawn-Guo-CN/agentfoundry-plugin-marketplace
 ```
 
 This registers the marketplace so Claude Code can discover all plugins listed here.
