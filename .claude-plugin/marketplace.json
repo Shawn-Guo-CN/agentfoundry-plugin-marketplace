@@ -248,28 +248,19 @@
     {
       "name": "repo-analyser",
       "description": "Analyse code repositories and generate comprehensive architecture documentation with Mermaid diagrams",
-      "source": {
-        "source": "local",
-        "path": "./plugins/repo-analyser"
-      },
+      "source": "./plugins/repo-analyser",
       "category": "development"
     },
     {
       "name": "pr-conventions",
       "description": "Pull request conventions — full commit history analysis and test plan requirements",
-      "source": {
-        "source": "local",
-        "path": "./plugins/pr-conventions"
-      },
+      "source": "./plugins/pr-conventions",
       "category": "workflow"
     },
     {
       "name": "i18n-guide",
       "description": "Internationalisation guide — enforce multi-language support for frontend components with unified configuration paths",
-      "source": {
-        "source": "local",
-        "path": "./plugins/i18n-guide"
-      },
+      "source": "./plugins/i18n-guide",
       "category": "style"
     }
   ]

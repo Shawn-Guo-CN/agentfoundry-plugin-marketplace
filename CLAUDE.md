@@ -58,7 +58,7 @@ scripts/
 
 - `github` — references an external GitHub repo (`"repo": "owner/repo"`)
 - `url` — references a URL (`"url": "https://..."`)
-- `local` — references an original plugin in `plugins/` (`"path": "./plugins/my-plugin"`)
+- relative path — references an original plugin in `plugins/` (`"source": "./plugins/my-plugin"`)
 
 ## Conventions
 

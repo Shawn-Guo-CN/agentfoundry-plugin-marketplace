@@ -148,7 +148,7 @@ Add an entry to `.claude-plugin/marketplace.json`:
 |------|--------|---------|
 | `github` | `repo` (required), `path` (optional) | `"repo": "owner/repo"` |
 | `url` | `url` (required) | `"url": "https://..."` |
-| `local` | `path` (required) | `"path": "./plugins/my-plugin"` |
+| relative path | `source` (string) | `"source": "./plugins/my-plugin"` |
 
 **Categories:** `development`, `security`, `workflow`, `creative`, `integration`, `style`
 
