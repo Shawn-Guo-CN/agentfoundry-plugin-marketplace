@@ -1,0 +1,249 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "agentfoundry-plugin-marketplace",
+  "description": "Curated collection of Claude Code plugins for AI agent development — skills, commands, hooks, and agents.",
+  "owner": {
+    "name": "AgentFoundry",
+    "url": "https://github.com/agentfoundry"
+  },
+  "plugins": [
+    {
+      "name": "agent-sdk-dev",
+      "description": "Scaffold and verify Claude Agent SDK applications in Python and TypeScript",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/agent-sdk-dev"
+      },
+      "category": "development"
+    },
+    {
+      "name": "feature-dev",
+      "description": "Guided 7-phase feature development workflow with specialised agents for exploration, architecture, and review",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/feature-dev"
+      },
+      "category": "development"
+    },
+    {
+      "name": "code-review",
+      "description": "Automated PR code review with parallel agents and confidence-based scoring to filter false positives",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/code-review"
+      },
+      "category": "development"
+    },
+    {
+      "name": "code-simplifier",
+      "description": "Simplify and refactor code for clarity, consistency, and maintainability",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/code-simplifier"
+      },
+      "category": "development"
+    },
+    {
+      "name": "commit-commands",
+      "description": "Streamlined Git workflows — AI-generated commits, one-step commit-push-PR, and branch cleanup",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/commit-commands"
+      },
+      "category": "development"
+    },
+    {
+      "name": "hookify",
+      "description": "Create custom hooks in natural language to block or warn on unwanted behaviours",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/hookify"
+      },
+      "category": "development"
+    },
+    {
+      "name": "pr-review-toolkit",
+      "description": "Comprehensive PR review with 6 specialised agents — comments, tests, error handling, types, quality, and simplification",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/pr-review-toolkit"
+      },
+      "category": "development"
+    },
+    {
+      "name": "claude-md-management",
+      "description": "Audit and update CLAUDE.md files — keep project memory aligned with codebase and capture session learnings",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/claude-md-management"
+      },
+      "category": "development"
+    },
+    {
+      "name": "frontend-design",
+      "description": "Generate distinctive, production-grade frontend interfaces with high design quality",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/frontend-design"
+      },
+      "category": "development"
+    },
+    {
+      "name": "security-guidance",
+      "description": "Security guidance hooks for safer coding practices",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "plugins/security-guidance"
+      },
+      "category": "security"
+    },
+    {
+      "name": "github",
+      "description": "GitHub integration via MCP — repo operations, issues, pull requests, and more",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/claude-plugins-official",
+        "path": "external_plugins/github"
+      },
+      "category": "integration"
+    },
+    {
+      "name": "planning-with-files",
+      "description": "Manus-style persistent markdown planning — task plans, findings, and progress files for cross-session memory",
+      "source": {
+        "source": "github",
+        "repo": "OthmanAdi/planning-with-files"
+      },
+      "category": "workflow"
+    },
+    {
+      "name": "doc-coauthoring",
+      "description": "Collaborative document co-authoring skill for structured writing with Claude",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/skills",
+        "path": "skills/doc-coauthoring"
+      },
+      "category": "creative"
+    },
+    {
+      "name": "web-artifacts-builder",
+      "description": "Build interactive web components and self-contained HTML artefacts",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/skills",
+        "path": "skills/web-artifacts-builder"
+      },
+      "category": "development"
+    },
+    {
+      "name": "webapp-testing",
+      "description": "Automated web application testing skill for validating functionality and catching regressions",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/skills",
+        "path": "skills/webapp-testing"
+      },
+      "category": "development"
+    },
+    {
+      "name": "skill-creator",
+      "description": "Guide for creating effective Agent Skills — templates, best practices, and structure",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/skills",
+        "path": "skills/skill-creator"
+      },
+      "category": "development"
+    },
+    {
+      "name": "algorithmic-art",
+      "description": "Generate algorithmic and generative art through code — patterns, fractals, and creative visualisations",
+      "source": {
+        "source": "github",
+        "repo": "anthropics/skills",
+        "path": "skills/algorithmic-art"
+      },
+      "category": "creative"
+    },
+    {
+      "name": "ui-ux-pro-max-skill",
+      "description": "AI-driven UI/UX design system generator — 67 styles, 96 palettes, 57 font pairings, and 100 industry-specific reasoning rules",
+      "source": {
+        "source": "github",
+        "repo": "nextlevelbuilder/ui-ux-pro-max-skill"
+      },
+      "category": "creative"
+    },
+    {
+      "name": "architect",
+      "description": "Software architecture specialist for system design, scalability, and technical decision-making",
+      "source": {
+        "source": "github",
+        "repo": "affaan-m/everything-claude-code",
+        "path": "agents/architect"
+      },
+      "category": "development"
+    },
+    {
+      "name": "build-error-resolver",
+      "description": "Build and TypeScript error resolution — fixes compilation and type errors with minimal diffs",
+      "source": {
+        "source": "github",
+        "repo": "affaan-m/everything-claude-code",
+        "path": "agents/build-error-resolver"
+      },
+      "category": "development"
+    },
+    {
+      "name": "continuous-learning-v2",
+      "description": "Instinct-based learning system — observes sessions, creates confidence-scored atomic behaviours, and evolves them into skills",
+      "source": {
+        "source": "github",
+        "repo": "affaan-m/everything-claude-code",
+        "path": "skills/continuous-learning-v2"
+      },
+      "category": "workflow"
+    },
+    {
+      "name": "api-design",
+      "description": "API design patterns and best practices — REST conventions, versioning, error handling, and documentation",
+      "source": {
+        "source": "github",
+        "repo": "affaan-m/everything-claude-code",
+        "path": "skills/api-design"
+      },
+      "category": "development"
+    },
+    {
+      "name": "backend-patterns",
+      "description": "Backend architecture patterns — caching, queues, middleware, and service layer conventions",
+      "source": {
+        "source": "github",
+        "repo": "affaan-m/everything-claude-code",
+        "path": "skills/backend-patterns"
+      },
+      "category": "development"
+    },
+    {
+      "name": "docker-patterns",
+      "description": "Docker best practices — multi-stage builds, layer optimisation, compose patterns, and security hardening",
+      "source": {
+        "source": "github",
+        "repo": "affaan-m/everything-claude-code",
+        "path": "skills/docker-patterns"
+      },
+      "category": "development"
+    }
+  ]
+}

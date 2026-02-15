@@ -1,0 +1,48 @@
+name: Validate Marketplace
+
+on:
+  push:
+    paths:
+      - '.claude-plugin/marketplace.json'
+  pull_request:
+    paths:
+      - '.claude-plugin/marketplace.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Validate marketplace.json
+        run: bash scripts/validate.sh
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## Marketplace Validation" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          PLUGIN_COUNT=$(python3 -c "import json; print(len(json.load(open('.claude-plugin/marketplace.json')).get('plugins', [])))")
+          echo "**Plugins registered:** ${PLUGIN_COUNT}" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          python3 -c "
+          import json
+          data = json.load(open('.claude-plugin/marketplace.json'))
+          plugins = data.get('plugins', [])
+          if plugins:
+              print('| Name | Category | Source |')
+              print('|------|----------|--------|')
+              for p in plugins:
+                  name = p.get('name', '?')
+                  cat = p.get('category', '-')
+                  src = p.get('source', {})
+                  src_str = src.get('repo', src.get('url', src.get('path', '-')))
+                  print(f'| {name} | {cat} | {src_str} |')
+          else:
+              print('_No plugins registered yet._')
+          " >> "$GITHUB_STEP_SUMMARY"
