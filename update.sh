@@ -27,6 +27,8 @@ REPOS=(
   "claude-plugins-official|https://github.com/anthropics/claude-plugins-official.git"
   "skills|https://github.com/anthropics/skills.git"
   "everything-claude-code|https://github.com/affaan-m/everything-claude-code.git"
+  "planning-with-files|https://github.com/OthmanAdi/planning-with-files.git"
+  "ui-ux-pro-max-skill|https://github.com/nextlevelbuilder/ui-ux-pro-max-skill.git"
 )
 
 # ─── Plugin selections (directories) ─────────────────────────────────
@@ -55,6 +57,10 @@ SELECTIONS=(
   "webapp-testing|skills|skills/webapp-testing"
   "skill-creator|skills|skills/skill-creator"
   "algorithmic-art|skills|skills/algorithmic-art"
+
+  # ── standalone repos (whole repo = single plugin) ──
+  "planning-with-files|planning-with-files|."
+  "ui-ux-pro-max-skill|ui-ux-pro-max-skill|."
 
   # ── affaan-m/everything-claude-code (skills) ──
   "continuous-learning-v2|everything-claude-code|skills/continuous-learning-v2"
@@ -117,6 +123,8 @@ for entry in "${SELECTIONS[@]}"; do
   # Clean copy — remove old, replace with upstream
   rm -rf "$dst"
   cp -R "$src" "$dst"
+  # Strip .git if copying a whole repo (path = ".")
+  rm -rf "$dst/.git"
 
   echo "  + $name <- $repo_key/$src_path"
 done

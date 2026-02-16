@@ -76,10 +76,7 @@
     {
       "name": "planning-with-files",
       "description": "Manus-style persistent markdown planning — task plans, findings, and progress files for cross-session memory",
-      "source": {
-        "source": "github",
-        "repo": "OthmanAdi/planning-with-files"
-      },
+      "source": "./plugins/planning-with-files",
       "category": "workflow"
     },
     {
@@ -115,10 +112,7 @@
     {
       "name": "ui-ux-pro-max-skill",
       "description": "AI-driven UI/UX design system generator — 67 styles, 96 palettes, 57 font pairings, and 100 industry-specific reasoning rules",
-      "source": {
-        "source": "github",
-        "repo": "nextlevelbuilder/ui-ux-pro-max-skill"
-      },
+      "source": "./plugins/ui-ux-pro-max-skill",
       "category": "creative"
     },
     {
