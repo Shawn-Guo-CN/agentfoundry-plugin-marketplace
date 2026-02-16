@@ -1,0 +1,5 @@
+{
+  "name": "build-error-resolver",
+  "description": "Agent: build-error-resolver (vendored from everything-claude-code)",
+  "agents": ["./agents/build-error-resolver.md"]
+}
